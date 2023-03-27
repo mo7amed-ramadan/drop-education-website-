@@ -1,0 +1,218 @@
+:root {
+  --purple-color: #6c0dff;
+  --btn-color: #ff5f61;
+  --white-color: #fff;
+  --orange-color: #fb8121;
+  --sky-blue-color: #4bd2ff;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Start Header */
+/* Start nav bar */
+.logo {
+  width: 50px;
+}
+.navbar {
+  background-color: var(--purple-color);
+}
+.navbar-nav .nav-item .nav-link {
+  color: var(--white-color);
+}
+.navbar-nav .nav-item .active {
+  color: var(--btn-color);
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--btn-color);
+}
+.btn-sign,
+.start-btn {
+  background-color: var(--btn-color);
+  width: 120px;
+}
+.btn-sign:hover {
+  background-color: var(--white-color);
+  border: 3px solid var(--btn-color);
+  color: var(--btn-color);
+}
+.fa-bars {
+  color: var(--white-color);
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* End nav bar */
+/* Start landing page */
+.landing-page {
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  height: 87vh;
+}
+.main {
+  width: 100%;
+  height: 87vh;
+}
+.main h1 {
+  font-weight: 600;
+  font-size: 50px;
+}
+.main .caption {
+  max-width: 600px;
+}
+.read {
+  max-width: 140px;
+}
+.learn-img {
+  width: 45%;
+}
+/* End landing page */
+/* End Header */
+/* Start About*/
+.about h1 {
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+}
+.about .caption {
+  max-width: 900px;
+  opacity: 0.8;
+}
+.about .creator {
+  color: var(--orange-color);
+}
+/* End About */
+/* Start Section Welcome */
+.welcome {
+  margin: 100px 0;
+}
+.right-side h3 {
+  max-width: 430px;
+}
+.right-side p {
+  max-width: 420px;
+  font-size: 1rem;
+}
+.start-btn:hover {
+  border: 5px solid var(--btn-color);
+  background-color: var(--white-color);
+  color: var(--btn-color);
+}
+.left-side h3 {
+  max-width: 430px;
+}
+.left-side p {
+  max-width: 420px;
+  font-size: 1rem;
+}
+/* End Section Welcome */
+/* Start services section */
+.services {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.fa-solid,
+.circle {
+  width: fit-content;
+}
+.circle {
+  color: white;
+  font-size: 40px;
+  width: 100px;
+  border-radius: 200%;
+  height: 100px;
+}
+.globe-circle {
+  background-color: var(--sky-blue-color);
+  box-shadow: 0px 0px 20px 5px var(--sky-blue-color);
+}
+.lightbulb-circle {
+  background-color: var(--purple-color);
+  box-shadow: 0px 0px 20px 5px var(--purple-color);
+}
+.graduation-circle {
+  background-color: var(--orange-color);
+  box-shadow: 0px 0px 20px 5px var(--orange-color);
+}
+.globe .caption {
+  max-width: 270px;
+  font-size: 12px;
+}
+.lightbulb .caption {
+  max-width: 270px;
+  font-size: 12px;
+}
+.graduation .caption {
+  max-width: 270px;
+  font-size: 12px;
+}
+/* End services section */
+/* Start Footer */
+.footer-content {
+  border-top: 1px solid rgb(158, 158, 158, 0.4);
+  min-height: 100px;
+  max-width: 100%;
+}
+.footer p {
+  color: #000;
+  opacity: 0.4;
+}
+.footer .navbar {
+  background-color: transparent;
+  width: fit-content;
+}
+.footer .navbar-nav .nav-item .nav-link {
+  color: #000;
+  opacity: 0.4;
+  font-size: 14px;
+}
+/* End Footer */
+/* Media query */
+@media (max-width: 575.98px) {
+  .main h1 {
+    font-size: 49px;
+  }
+  .right-side h3 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .right-side p {
+    font-size: 10px;
+  }
+  .left-side h3 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .left-side p {
+    font-size: 10px;
+  }
+  .graduation,
+  .lightbulb,
+  .globe {
+    margin: 0 5px;
+  }
+  .graduation .caption {
+    font-size: 10px;
+    max-width: 220px;
+  }
+  .lightbulb .caption {
+    font-size: 10px;
+    max-width: 220px;
+  }
+  .globe .caption {
+    font-size: 10px;
+    max-width: 220px;
+  }
+  .rights .caption {
+    font-size: 14px;
+  }
+  .footer .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+}
