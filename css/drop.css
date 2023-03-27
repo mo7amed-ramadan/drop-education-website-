@@ -176,7 +176,7 @@ body {
 /* Media query */
 @media (max-width: 575.98px) {
   .main h1 {
-    font-size: 49px;
+    font-size: 42px;
   }
   .right-side h3 {
     font-size: 15px;
@@ -192,22 +192,32 @@ body {
   .left-side p {
     font-size: 10px;
   }
+  .circle {
+    width: 70px;
+    height: 70px;
+  }
   .graduation,
   .lightbulb,
   .globe {
     margin: 0 5px;
   }
+  .circle h6 {
+    font-weight: bolder;
+  }
   .graduation .caption {
-    font-size: 10px;
+    font-size: 8px;
     max-width: 220px;
+    font-weight: bold;
   }
   .lightbulb .caption {
-    font-size: 10px;
+    font-size: 8px;
     max-width: 220px;
+    font-weight: bold;
   }
   .globe .caption {
-    font-size: 10px;
+    font-size: 8px;
     max-width: 220px;
+    font-weight: bold;
   }
   .rights .caption {
     font-size: 14px;
